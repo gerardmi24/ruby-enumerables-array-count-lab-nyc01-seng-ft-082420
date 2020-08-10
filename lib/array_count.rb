@@ -4,7 +4,9 @@ total = 0
 index = 0
 while index < array.count do
   if array[index].string
+    total += 1
 end
+index += 1
 end
 
 def count_empty_strings(array)

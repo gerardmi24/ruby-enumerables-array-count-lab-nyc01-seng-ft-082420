@@ -3,7 +3,7 @@ def count_strings(array)
 total = 0
 index = 0
 array.count do |index|
-  index.string
+  index == string
   total += 1
   end
 index += 1

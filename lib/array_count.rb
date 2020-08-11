@@ -3,7 +3,7 @@ def count_strings(array)
 total = 0
 index = 0
 while index < array.count |index|
-  if index == ""
+  if index == String
     total += 1
   end
 index += 1

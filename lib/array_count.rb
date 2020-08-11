@@ -5,8 +5,9 @@ index = 0
 while index < array.count |index|
   if index == String
     total += 1
-end
+  end
 index += 1
+end
 end
 
 def count_empty_strings(array)
